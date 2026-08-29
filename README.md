@@ -1,11 +1,10 @@
 # recipe-traffic-prediction
 
 Predict which recipes will drive high site traffic, so a team knows what to
-feature on the homepage. A compact, honest tabular ML pipeline.
+feature on the homepage.
 
-The data is **synthetic** (generated here, not taken from any course or platform
-dataset), and deliberately includes missing values, because cleaning messy data
-is part of the task.
+The dataset is synthetic and includes missing values on purpose, so cleaning is
+part of the project.
 
 ## What it shows
 
