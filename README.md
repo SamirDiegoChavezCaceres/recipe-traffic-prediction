@@ -8,6 +8,12 @@ feature on the homepage.
 The dataset is synthetic and includes missing values on purpose, so cleaning is
 part of the project.
 
+## Demo
+
+![demo](assets/demo.gif)
+
+Generate it with [VHS](https://github.com/charmbracelet/vhs): `vhs demo.tape`.
+
 ## What it shows
 
 - **Missing-value handling inside the pipeline.** Nutrition columns have gaps;
