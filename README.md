@@ -47,6 +47,15 @@ pytest
 Covers that the data really contains gaps, that the pipeline trains straight
 through them via imputation, and that precision is reported.
 
+## Limitations and next steps
+
+- The data is synthetic and the feature/target relationship is invented, so the
+  metric is illustrative, not a benchmark.
+- Only basic numeric and category features; no text from recipe names or
+  ingredients.
+- Next: tune the decision threshold for a precision target, and calibrate the
+  probabilities.
+
 ## License
 
 MIT.
