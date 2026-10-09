@@ -12,6 +12,11 @@ part of the project.
 
 ![demo](assets/demo.gif)
 
+The demo (`scripts/demo.py`) runs offline on synthetic data with missing
+nutrition values injected on purpose. It (1) trains on 4000 rows, reporting how
+many values were missing and imputed in-pipeline, and (2) prints sample
+predictions with the probability of high traffic per recipe category.
+
 Generate it with [VHS](https://github.com/charmbracelet/vhs): `vhs demo.tape`.
 
 ## What it shows
